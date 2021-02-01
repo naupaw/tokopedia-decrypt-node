@@ -29,4 +29,5 @@ const decryptContent = (
   return JSON.parse(dec.toString());
 };
 
-export default decryptContent;
+decryptContent.default = decryptContent;
+export = decryptContent;
