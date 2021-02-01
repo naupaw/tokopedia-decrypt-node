@@ -1,0 +1,41 @@
+{
+  "name": "tokopedia-decrypt-node",
+  "version": "1.0.0",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "files": [
+    "lib/"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/pedox/tokopedia-decrpyt-node",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pedox/tokopedia-decrpyt-node.git"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json"
+  },
+  "author": {
+    "name": "pedox",
+    "url": "https://github.com/pedox",
+    "email": "naudotval@gmail.com"
+  },
+  "keywords": [
+    "tokopedia",
+    "decrypt",
+    "aes-256-gcm",
+    "openssl",
+    "private-key",
+    "open api"
+  ],
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "typescript": "^4.1.3"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
